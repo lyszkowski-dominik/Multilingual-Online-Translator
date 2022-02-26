@@ -44,14 +44,3 @@ for i in range(5):
     print(sentences2[i])
     print("\n")
 
-
-'''print(soup.prettify()) - druk wszystkiego co ściągnięte
-p1 = soup.find('title') -  wyciąga tylko jade element z takim tagiem
-p2 = soup.find_all('menu')  -  wyciąga wszystkie elementy z tagiem
-p3 = soup.find_all('p', {'style': 'text-align: justify;'})
-for p in paragraphs:
-    print(p.text + '\n')
-a = soup.find_all('a')
-for i in a:
-    print(i.get('href')) 
-'''
